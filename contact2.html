@@ -11,6 +11,7 @@
     />
 
     <title>TakeaBreath.com</title>
+    <link rel="stylesheet" href="contact.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -109,7 +110,13 @@
     </div>
   </div>
 </div>
-<button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here’s some amazing content. It’s very engaging. Right?">Click to toggle popover</button>
 
+
+<button type="button" id="koumpi" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Email" data-bs-content="You can contact us by email (takeabreath@gmail.com) for further information.">Click to contact us</button>
+
+<script>
+  const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl));
+</script>
   </body>
 </html>
