@@ -1,3 +1,13 @@
 body {
-  background-color: rgb(230, 202, 174);
+  background-color: rgb(229, 224, 219);
+}
+h1 {
+  color: rgb(137, 114, 139);
+}
+p {
+  margin-top: 20px;
+  color: rgb(72, 62, 72);
+}
+.buttonlink {
+  background-color: rgb(192, 145, 194);
 }
