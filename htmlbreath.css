@@ -6,8 +6,11 @@ h1 {
 }
 p {
   margin-top: 20px;
-  color: rgb(72, 62, 72);
+  color: rgb(72, 51, 72);
 }
 .buttonlink {
   background-color: rgb(192, 145, 194);
+}
+.buttonlink2 {
+  color: rgb(97, 67, 126);
 }

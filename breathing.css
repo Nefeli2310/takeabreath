@@ -1,7 +1,7 @@
 h1 {
   text-align: center;
   margin-top: 20px;
-  color: pink;
+  color: rgb(81, 72, 89);
 }
 h3 {
   margin-top: 20px;
@@ -40,16 +40,19 @@ h3 {
 
 h3 {
   text-align: center;
-  color: pink;
+  color: rgb(81, 69, 85);
 }
 
 .black {
-  color: turquoise;
+  color: rgb(63, 58, 106);
 }
 .about {
-  color: darkcyan;
+  color: rgb(138, 71, 112);
 }
 
 Yes {
   text-align: center;
+}
+.buttonlink2 {
+  color: rgb(97, 67, 126);
 }

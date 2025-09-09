@@ -1,8 +1,10 @@
 h1 {
   font-size: 70px;
   font-family: "Times New Roman", Times, serif;
+  color: rgb(88, 74, 100);
 }
 h2 {
+  color: rgb(65, 53, 76);
   font-size: 40px;
 }
 
@@ -11,4 +13,8 @@ h2 {
   margin-right: auto;
   margin-left: auto;
   display: block;
+  background-color: rgb(192, 145, 194);
+}
+.buttonlink2 {
+  color: rgb(97, 67, 126);
 }
